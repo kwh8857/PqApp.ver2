@@ -24,7 +24,8 @@ const images = {
     link_asset: require('./img/detail/link_asset.png'),
     link_arrow: require('./img/detail/link_arrow.png'),
     wide: require('./img/detail/wide.png'),
-    slider_asset: require('./img/detail/slider_asset.png')
+    slider_asset: require('./img/detail/slider_asset.png'),
+    finger: require('./img/detail/finger.png')
   }
 }
 export default images

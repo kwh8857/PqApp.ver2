@@ -8,7 +8,14 @@ export default function InsertSlide(props) {
   const { data } = props;
   const navigation = useNavigation();
   return (
-    <View style={{ width: "100%", height: 200, marginTop: 38 }}>
+    <View
+      style={{
+        width: "100%",
+        height: 200,
+        marginTop: 38,
+        alignItems: "center",
+      }}
+    >
       <TouchableOpacity
         onPress={() => {
           navigation.navigate("slidedetail", { data });
@@ -62,6 +69,31 @@ export default function InsertSlide(props) {
           />
         </View>
       </TouchableOpacity>
+      <View
+        style={{
+          flexDirection: "row",
+          width: "88%",
+          borderRadius: 5,
+          height: 35,
+          backgroundColor: "#efefef",
+          alignItems: "center",
+          justifyContent: "center",
+          marginTop: 15,
+        }}
+      >
+        <Image source={images.detail.finger} />
+        <Text
+          style={[
+            ccs.NotoBold,
+            ccs.f_13,
+            {
+              marginLeft: 4,
+            },
+          ]}
+        >
+          이미지 클릭해서 슬라이드 보기
+        </Text>
+      </View>
     </View>
   );
 }

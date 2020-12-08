@@ -26,7 +26,7 @@ export default function InsertGallery(props) {
       <Image
         resizeMode={"contain"}
         source={{ uri: data.img }}
-        style={{ width: "100%", height: 331 }}
+        style={{ width: "100%", height: "100%" }}
       />
       <Text
         style={[
