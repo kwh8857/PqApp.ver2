@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "jsx": "react-native",
+    "baseUrl": "./",
+    "paths": {
+      "@assets/*": [
+        "./assets/*"
+      ],
+      // "@screens/*": [
+      //   "./src/screens/*"
+      // ],
+      // "@library/*": [
+      //   "./lib/*"
+      // ],
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "compileOnSave": true
+}

@@ -1,0 +1,6 @@
+module Pods_ProjectQuestionApp_ProjectQuestionAppTests {
+  umbrella header "Pods-ProjectQuestionApp-ProjectQuestionAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

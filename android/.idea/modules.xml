@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1275718067/ react-native-video-exoplayer .iml" filepath="$PROJECT_DIR$/.idea/modules/-1275718067/ react-native-video-exoplayer .iml" group="ProjectQuestionApp/ react-native-video-exoplayer " />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProjectQuestionApp.iml" filepath="$PROJECT_DIR$/.idea/modules/ProjectQuestionApp.iml" group="ProjectQuestionApp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1333768555/android-exoplayer-react-native-video.iml" filepath="$PROJECT_DIR$/.idea/modules/1333768555/android-exoplayer-react-native-video.iml" group="ProjectQuestionApp/react-native-video" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="ProjectQuestionApp/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1905781856/react-native-community_clipboard.iml" filepath="$PROJECT_DIR$/.idea/modules/1905781856/react-native-community_clipboard.iml" group="ProjectQuestionApp/react-native-community_clipboard" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1124160015/react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/-1124160015/react-native-community_masked-view.iml" group="ProjectQuestionApp/react-native-community_masked-view" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1986550779/react-native-device-info.iml" filepath="$PROJECT_DIR$/.idea/modules/-1986550779/react-native-device-info.iml" group="ProjectQuestionApp/react-native-device-info" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1074185321/react-native-firebase_app.iml" filepath="$PROJECT_DIR$/.idea/modules/1074185321/react-native-firebase_app.iml" group="ProjectQuestionApp/react-native-firebase_app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/853279475/react-native-firebase_database.iml" filepath="$PROJECT_DIR$/.idea/modules/853279475/react-native-firebase_database.iml" group="ProjectQuestionApp/react-native-firebase_database" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-796349981/react-native-firebase_functions.iml" filepath="$PROJECT_DIR$/.idea/modules/-796349981/react-native-firebase_functions.iml" group="ProjectQuestionApp/react-native-firebase_functions" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-695897082/react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/-695897082/react-native-gesture-handler.iml" group="ProjectQuestionApp/react-native-gesture-handler" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1078182314/react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/-1078182314/react-native-reanimated.iml" group="ProjectQuestionApp/react-native-reanimated" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1909170927/react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/1909170927/react-native-safe-area-context.iml" group="ProjectQuestionApp/react-native-safe-area-context" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/77205959/react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/77205959/react-native-screens.iml" group="ProjectQuestionApp/react-native-screens" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1406930990/react-native-splash-screen.iml" filepath="$PROJECT_DIR$/.idea/modules/-1406930990/react-native-splash-screen.iml" group="ProjectQuestionApp/react-native-splash-screen" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1646170512/react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/1646170512/react-native-vector-icons.iml" group="ProjectQuestionApp/react-native-vector-icons" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-663851463/react-native-webview.iml" filepath="$PROJECT_DIR$/.idea/modules/-663851463/react-native-webview.iml" group="ProjectQuestionApp/react-native-webview" />
+    </modules>
+  </component>
+</project>

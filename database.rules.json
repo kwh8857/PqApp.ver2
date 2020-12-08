@@ -1,0 +1,102 @@
+{
+  "rules": {
+    "production": {
+      ".read": true,
+      ".write": true,
+      "users": {
+        ".read": "auth.uid == 'Ns4r2D5ob8ZETqz9iPrUxcEN6Zn2' || auth != null",
+        "$uid": {
+          "gatekeeping": {
+            ".indexOn": [
+              "projectid"
+            ]
+          }
+        }
+      },
+      "office": {
+        "comments": {
+          ".indexOn": [
+            "timestamp",
+            "report"
+          ]
+        },
+        "gatekeeping": {
+          ".indexOn": [
+            "projectid"
+          ]
+        }
+      },
+      "projects": {
+        ".indexOn": [
+          "state",
+          "projectUploadTime"
+        ],
+        ".read": true
+      },
+      "sponsor": {
+        ".indexOn": [
+          "state",
+          "projectUploadTime"
+        ],
+        ".read": true
+      },
+      "community": {
+        ".read": true,
+        ".indexOn": [
+          "finalUploadTimeStamp"
+        ]
+      }
+    },
+    "statics": {
+      ".read": "true",
+      ".write": "auth.uid == 'Ns4r2D5ob8ZETqz9iPrUxcEN6Zn2'"
+    },
+    "test": {
+      ".read": true,
+      ".write": true,
+      "users": {
+        ".read": "auth.uid == 'Ns4r2D5ob8ZETqz9iPrUxcEN6Zn2' || auth != null",
+        "$uid": {
+          "gatekeeping": {
+            ".indexOn": [
+              "projectid"
+            ]
+          }
+        }
+      },
+      "office": {
+        "comments": {
+          ".indexOn": [
+            "timestamp",
+            "report"
+          ]
+        },
+        "gatekeeping": {
+          ".indexOn": [
+            "projectid"
+          ]
+        }
+      },
+      "projects": {
+        ".indexOn": [
+          "state",
+          "projectUploadTime"
+        ],
+        ".read": true
+      },
+      "sponsor": {
+        ".indexOn": [
+          "state",
+          "projectUploadTime"
+        ],
+        ".read": true
+      },
+      "community": {
+        ".read": true,
+        ".indexOn": [
+          "finalUploadTimeStamp"
+        ]
+      }
+    }
+  }
+}
