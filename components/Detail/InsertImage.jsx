@@ -21,7 +21,7 @@ export default function InsertImage(props) {
       }}
     >
       <Image
-        resizeMode={"cover"}
+        resizeMode={"contain"}
         source={{ uri: data }}
         style={{
           width: "100%",

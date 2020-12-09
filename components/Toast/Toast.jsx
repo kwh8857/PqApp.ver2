@@ -3,7 +3,7 @@ import { Text, StyleSheet } from "react-native";
 import ccs from "@assets/core/ccs";
 import colors from "@assets/colors";
 import * as Animated from "react-native-animatable";
-import { useSelector, useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
 
 export default function Toast() {
   const isToast = useSelector((state) => state.layouts.toast);
