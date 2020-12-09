@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Text, StyleSheet } from "react-native";
 import ccs from "@assets/core/ccs";
 import colors from "@assets/colors";
@@ -6,19 +6,14 @@ import * as Animated from "react-native-animatable";
 import { useSelector, useDispatch } from "react-redux";
 
 export default function Toast() {
-  const dispatch = useDispatch();
   const isToast = useSelector((state) => state.layouts.toast);
+  const [isActive, setIsActive] = useState(false);
   useEffect(() => {
-    if (isToast.isActive) {
+    if (isToast.isActive && isActive === false) {
+      setIsActive(true);
       clearTimeout();
       setTimeout(() => {
-        dispatch({
-          type: "SHOW/TOAST",
-          payload: {
-            isActive: false,
-            msg: "",
-          },
-        });
+        setIsActive(false);
       }, 1500);
     }
     return () => {};
@@ -36,7 +31,7 @@ export default function Toast() {
         paddingRight: 26,
         alignSelf: "center",
         borderRadius: 5,
-        bottom: isToast.isActive ? 20 : -200,
+        bottom: isActive ? 20 : -200,
       }}
     >
       <Text style={[ccs.NotoBold, ccs.f_15, css.categorytext]}>

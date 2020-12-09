@@ -33,6 +33,10 @@ export default function HomeList() {
           return (
             <TouchableOpacity
               onPress={() => {
+                navigation.navigate("section1", {
+                  data: data,
+                  key: key,
+                });
                 if (data.state === "end") {
                   dispatch({
                     type: "SHOW/TOAST",

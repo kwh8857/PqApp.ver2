@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { StyleSheet, Text, View, Image, Dimensions } from "react-native";
+import { StyleSheet, View, Image, Dimensions } from "react-native";
 
 export default function InsertImage(props) {
   const data = props.data;
